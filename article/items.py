@@ -12,3 +12,8 @@ class ArticleItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass
+class arItem(scrapy.Item):
+    title = scrapy.Field()
+    url = scrapy.Field()
+    font_image = scrapy.Field()
+
